@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogThemeQuiz" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--item RadioButton or CheckBox color-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <!--item text color-->
+        <item name="textColorAlertDialogListItem">@android:color/white</item>
+        <!--buttons color-->
+        <item name="colorAccent">#ffffff</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@color/darklightblue</item>
+        <item name="android:fontFamily">@font/mitr_semibold</item>
+    </style>
+
+    <style name="seekbar" parent="Widget.AppCompat.SeekBar">
+        <item name="lineHeight">20dp</item>
+
+    </style>
+</resources>
